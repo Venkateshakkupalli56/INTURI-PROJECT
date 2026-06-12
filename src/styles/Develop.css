@@ -1,0 +1,206 @@
+.develop{
+    display: flex;
+    justify-content: space-around;
+}
+.inturi1 img{
+    width: 600px;
+    margin-left: -150px;
+    margin-top: 50px;
+}
+.develop{
+    background-color: #FFF7D9;
+}
+.inturi2 img{
+    width: 650px;
+    height: 340px;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.project{
+    display: flex;
+}
+.event h4,.event1 h4{
+    margin-left: 20px;
+    color: #FFD129;
+}
+.event{
+    width: 99%;
+    margin-left: 30px;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    background-color: white;
+}
+.event1{
+    width: 99%;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    background-color: white;   
+}
+.political{
+    background-color: #FFF7D9;
+}
+.local{
+    display: flex;
+    background-color: #FFF7D9;
+}
+.healthcare{
+    width: 30%;
+    height: 140px;  
+    margin-top: 30px;
+    margin-left: 50px;
+    padding-top: 20px;
+    padding-left: 5px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    background-color: white;   
+}
+.jobs{
+    width: 30%;
+    height: 140px;
+    margin-top: 30px;
+    margin-left: 25px;
+    padding-top: 20px;
+    padding-left: 5px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    background-color: white;   
+}
+.reviews{
+    width: 30%;
+    height: 140px;
+    margin-top: 30px;
+    margin-left: 25px;
+    padding-top: 20px;
+    padding-left: 5px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    background-color: white;   
+}
+.slider {
+  width: 100%;
+  overflow: hidden;
+}
+.slider1 {
+  display: flex;
+  width: calc(250px * 8);
+  animation: scroll 15s linear infinite;
+  margin-top: 30px;
+}
+.slider1 img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 4));
+  }
+}
+.slider1 img:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.page{
+    background-color: #FFF7D9;
+}
+.name button{
+    width: 15%;
+    font-weight: bold;
+    margin-left: 650px;
+    margin-top: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #FFD129;
+}
+.name h1{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.youtube img{
+    width: 60%;
+    margin-left: 50px;
+}
+.youtube p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 150px;
+}
+.twitter img{
+    width: 320px;
+    height: 180px;
+    margin-left: -80px;
+}
+.twitter p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.facebook img{
+    width: 100%;
+    height: 75%;
+    margin-left: 70px;
+}
+.facebook p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 170px;
+}
+.instagram img{
+    width: 60%;
+    height: 70%;
+    margin-left: 140px;
+}
+.instagram p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 230px;
+}
+.links{
+    display: flex;
+    margin-top: 50px;
+}
+.youtube:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.twitter:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.facebook:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.instagram:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.img3{
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+.img4 img{
+    width: 80%;
+    margin-left: 50px;
+}
+.link span{
+    font-size: 30px;
+    margin-left: 20px;  
+}
+.img5{
+    margin-left: 830px;
+}

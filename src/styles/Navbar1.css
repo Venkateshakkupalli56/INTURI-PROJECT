@@ -1,0 +1,47 @@
+body {
+    padding-top: 60px;
+}
+.container-fluid{
+        background-color: #fff;
+}
+.navbar{
+    position: fixed !important;
+    top: -5px;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    z-index: 9999999;
+    height: 60px;
+    margin-top: 20px;
+}
+.navbar-brand img{
+    width: 100%;
+    height: 80px;
+}
+.nav-link:hover {
+    color: #FFE184 !important;
+}
+.icon-cart{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.nav-item { 
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: transparent;
+  border: none;
+  color: #f0f0f0;
+  font-size: 1rem;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: all 0.2s ease !important;
+}
+.navbar-nav{
+   margin-left: 380px;
+}
+.btn {
+    color: black !important;
+    background-color: #FFE184 !important;
+}

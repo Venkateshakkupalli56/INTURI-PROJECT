@@ -1,0 +1,135 @@
+.h{
+    text-align: center;
+    color: #FFD129;
+}
+nav input{
+    width: 80%;
+    padding: 5px;
+    /* border: none; */
+    border-radius: 5px;
+    margin-left: 120px;
+    margin-top: 20px;
+    /* background-color: white; */
+}
+nav button{
+    width: 5%;
+    padding: 5px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #0D6EFD;
+}
+.ace img{
+    width: 32%;
+    border-radius: 10px;
+    margin: px;
+}
+.ace{
+    margin-top: 15px;
+}
+.ia2,.ia4{
+    margin-left: 20px;
+}
+.ia4{
+    margin-top: 20px;
+}
+.ac{
+    display: flex;
+}
+.content{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: -280px;
+}
+li{
+    margin-top: 20px;
+}
+.ac{
+    margin-top: 50px;
+    width: 85.5%;
+    margin-left: 120px;
+    border-radius: 5px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    background-color: #FFF7D9;
+}
+.develop{
+    display: flex;
+}
+.develop{
+    margin-top: 30px;
+    margin-left: 120PX;  
+    width: 85.5%; 
+    border-radius: 5px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    background-color: #FFF7D9;
+}
+.list1 li{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 600px;
+}
+.img-card2 img{
+    width: 48.2%;
+    border-radius: 10px;
+}
+.card10{
+    padding: 10px;
+    margin-top: px;
+}
+.ib2,.ib4{
+    margin-left: 20px;
+}
+.list1{
+    margin-top: 70px;
+}
+.ib4{
+    height: 160px;
+    margin-top: 15px;
+}
+.ib3{
+    height: 160px;
+    margin-top: 15px;
+    margin-left: -10px;
+}
+.ib2{
+    height: 190px;
+}
+.ib1{
+    margin-left: -10px;
+}
+.ace1 img{
+    width: 23%;
+    border-radius: 10px;
+    margin: 11px;
+    margin-top:13px;
+}
+.ac{
+    display: flex;
+    margin-top: 50px;
+    width: 85.5%;
+    height: 420px;
+    margin-left: 120px;
+    border-radius: 5px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    background-color: #FFF7D9;
+}
+.content1 li{
+    font-size: 20px;
+    margin-left: -620px;
+}
+.content1{
+    margin-top: 40px;
+}
+.c4{
+    height: 190px;
+}
+h4{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+

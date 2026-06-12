@@ -1,0 +1,115 @@
+img{
+    width: 100%;
+    margin-top: -3px;
+}
+.hello1{
+    width: 29.5%;
+    height: 320px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    background-color: white;
+}
+.hello1 img{
+    width: 50%;
+    margin-left: 90px;
+}
+.hello1 p{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.hello2{
+    width:29.5%;
+    height: 320px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 68px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    background-color: white;
+}
+.hello2 img{
+    width: 50%;
+    margin-left: 100px;
+}
+.hello2 p{
+    margin-top: 40px;
+    margin-left: 20px;
+}.img-card1{
+    display: flex;
+}
+.img-card{
+    height: 800px;
+    background-color: #FFF7D9;
+}
+.hello1:hover{
+    transition: transform 0.4s ease;
+    transform: translateY(-5px);
+}
+.hello2:hover{
+    transition: transform 0.4s ease;
+    transform: translateY(-5px);
+}
+.hello{
+    width: 29.5%;
+    height: 320px;
+    border-radius: 8px;
+    margin-top: 70px;
+    margin-left: 20px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    background-color: white;
+}
+.hello img{
+    width: 50%;
+    margin-left: 90px;
+}
+.hello p{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.hello3{
+    width:29.5%;
+    height: 320px;
+    border-radius: 8px;
+    margin-top: 70px;
+    margin-left: 68px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    background-color: white;
+}
+.hello3 img{
+    width: 50%;
+    margin-left: 100px;
+}
+.hello3 p{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.hello:hover{
+    transition: transform 0.4s ease;
+    transform: translateY(-5px);
+}
+.hello3:hover{
+    transition: transform 0.4s ease;
+    transform: translateY(-5px);
+}
+.img3{
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+.img4 img{
+    width: 70%;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+.link span{
+    font-size: 30px;
+    margin-left: 20px;  
+}
+.img5{
+    margin-left: 830px;
+}
