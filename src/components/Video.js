@@ -4,7 +4,7 @@ const Video = () => {
   return (
     <div>
       <video width='100%'autoPlay muted loop>
-        <source src={video} type='video/mp4'/>
+        <source src={video} type='video/mp4' alt="."/>
       </video>
     </div>
   )

@@ -23,11 +23,11 @@ const Achievements = () => {
       <section>
         <div className="ac">
           <div className="ace">
-            <img src={a1} className="ia2"/>
-            <img src={a2} className="ia2" />
+            <img src={a1} alt='....' className="ia2"/>
+            <img src={a2}alt="..."  className="ia2" />
             <br />
-            <img src={a3}  className="ia4"/>
-            <img src={a4} className="ia4" />
+            <img src={a3} alt="..."  className="ia4"/>
+            <img src={a4} alt='..' className="ia4" />
           </div>
           <div className="content">
             <ul>
@@ -64,10 +64,10 @@ const Achievements = () => {
         </div>
         <div className="card10">
         <div className="img-card2">
-            <img src={b1} className="ib1"/>
-            <img src={b2} className="ib2"/><br/>
-            <img src={b3} className="ib3"/>
-            <img src={b4} className="ib4"/>
+            <img src={b1} alt="." className="ib1"/>
+            <img src={b2} alt="." className="ib2"/><br/>
+            <img src={b3} alt="." className="ib3"/>
+            <img src={b4} alt="." className="ib4"/>
         </div>
         </div>
         </div>
@@ -75,11 +75,11 @@ const Achievements = () => {
       <section>
         <div className="ac">
           <div className="ace1">
-            <img src={c1} />
-            <img src={c2} className="c2" />
+            <img src={c1} alt="."/>
+            <img src={c2} alt="." className="c2" />
             <br />
-            <img src={c3} />
-            <img src={c4} className="c4" />
+            <img src={c3} alt="."/>
+            <img src={c4} alt="." className="c4" />
           </div>
           <div className="content1">
             <ul>

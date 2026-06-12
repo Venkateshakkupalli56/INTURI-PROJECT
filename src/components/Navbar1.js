@@ -2,7 +2,6 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "../styles/Navbar1.css";
 import naturi from'../assests/naturi.png';
-import { IoIosCart } from "react-icons/io";
 import { useNavigate } from "react-router-dom";
 import { Nav } from 'react-bootstrap';
 
