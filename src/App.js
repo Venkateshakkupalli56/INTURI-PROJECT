@@ -1,21 +1,24 @@
 import React from 'react';
-import Achievements from './components/Achievements';
-// import Navbar from './components/Navbar';
+// import Achievements from './components/Achievements';
 import Navbar1 from './components/Navbar1';
-import Video from './components/Video';
-import Campaigns from './components/Campaigns';
-import Develop from './components/Develop';
+import { Route, Routes } from 'react-router-dom';
+import Accomplishment from './components/Accomplishment';
+import Landingpage from './components/Landingpage';
+import Achievements from './components/Achievements';
+import Contact from './components/Contact';
 import About from './components/About';
+
 function App() {
   return (
     <div className="">
-      {/* < Navbar/>  */}
      < Navbar1/>
-      < Video/>
-      < Campaigns/> 
-     < Develop/> 
-     < About/>
-      < Achievements/>
+     <Routes>
+      <Route path='/about' element={<About/>}/>
+      <Route path='/contact' element={<Contact/>}/>
+      <Route path='/accomplishment' element={<Accomplishment/>}/>
+      <Route path='/landingpage' element={<Landingpage/>}/>
+      <Route path='/achievements' element={<Achievements/>}/>
+     </Routes>
     </div>
   );
 }

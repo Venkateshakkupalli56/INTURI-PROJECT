@@ -35,7 +35,7 @@
     background-color: #FFF7D9;
 }
 .image-card1:hover{
-     transform: translatey(-8px);
+    transform: translatey(-8px);
     transition: 0.3s;
 }
 .img-name img{
@@ -57,10 +57,11 @@
 .img-name p{
     margin-top: 80px;
     margin-left: -400px;
+    /* width: 50%; */
 }
 .img-name button{
     width: 13%;
-    margin-left: 320px;
+    margin-left: 300px;
     padding: 10px;
     border-radius: 10px;
     font-weight: bold;

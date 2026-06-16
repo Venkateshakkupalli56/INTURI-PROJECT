@@ -33,21 +33,21 @@ function Navbar1() {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Nav.Link
+                <NavLink
                   className="nav-link "
-                  href="#home"
+                  to="/landingpage"
                   end
                 >
                   HOME
-                </Nav.Link>
+                </NavLink>
               </li>
               <li className="nav-item">
-               <Nav.Link
+               <NavLink
                   className="nav-link"
-                  href="#about"
+                 to="/about"
                 >
                   ABOUT
-                </Nav.Link> 
+                </NavLink> 
               </li>
               <li className="nav-item dropdown">
                 <Nav.Link
@@ -62,7 +62,7 @@ function Navbar1() {
                 </Nav.Link>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <NavLink className="dropdown-item" to="/fieldcrops">
+                    <NavLink className="dropdown-item" to="/achievements">
                       DEVELOPMENT
                     </NavLink>
                   </li>
@@ -103,20 +103,20 @@ function Navbar1() {
                 </ul>
               </li>
                <li className="nav-item">
-                <Nav.Link
+                <NavLink
                   className="nav-link"
-                  href="#contactus"
+                  to="/accomplishment"
                 >
                   ACCOMPLISHMENT
-                </Nav.Link>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <Nav.Link
+                <NavLink
                   className="nav-link"
-                  href="#contactus"
+                  to='/contact'
                 >
                   CONTACT US
-                </Nav.Link>
+                </NavLink>
               </li>
             </ul>
               <button className="btn" type="login" onClick={()=> navigate("/login")} >

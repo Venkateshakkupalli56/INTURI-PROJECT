@@ -19,7 +19,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 const Develop = () => {
   return (
-    <div>
+    <div className="venky">
       <div className="develop">
         <div>
           <h1 style={{fontWeight: "bold",marginLeft: "20px",marginTop: "180px",}}>A Legacy of<br/><span style={{ color: "#FFD129" }}>Excellence.</span></h1>

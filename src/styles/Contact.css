@@ -1,0 +1,56 @@
+.contact{
+  text-align: center;
+  margin-top: 30px;
+}
+.camp1{
+  display: flex;
+  /* justify-content: space-between; */
+}
+.fields1{
+  margin-top: 110px;
+  margin-left: 20px;
+}
+ input{
+  width: 320px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.details{
+  margin-left: 350px;
+  margin-top: 10px;
+}
+.fields h6{
+  margin-top: 10px;
+}
+.fields1 h6{
+  margin-top: 10px;
+}
+select{
+  width: 320px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.camp{
+  margin-top: 10px;
+  margin-left: 40px;
+}
+.input1{
+  width: 43%;
+  height: 80px;
+  margin-left: 810px; 
+}
+h2{
+  margin-left: 15px;
+}
+.btn2{
+  width: 12%;
+  font-size: 25px;
+  padding: 10px;
+  margin-left: 1050px;
+  align-items: end;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: #DBC42E;
+}
+
