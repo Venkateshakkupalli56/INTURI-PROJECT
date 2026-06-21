@@ -1,0 +1,389 @@
+header img{
+    margin-top: 26px;
+}
+.p1{
+    width: 90%;
+}
+.people h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.people span{
+    color: #FFD129;
+}
+.people p{
+    font-size: 20px;
+    margin-top: 20px;
+    width: 93%;
+}
+.leadership{
+    display: flex;
+    background-color: #FFF7D9;
+}
+.peoples{
+    display: flex;
+}
+.peoples p{
+    font-size: 17px;
+    width: 300px;
+}
+.peoples h5{
+    margin-left: 70px;
+}
+.water span{
+    font-size: 40px;
+    margin-left: 130px;
+}  
+.infrastructure span{
+    font-size: 40px;
+    margin-left: 110px;
+}
+.facilities span{
+    font-size: 40px;
+    margin-left: 100px;
+}
+.png1{
+    position: relative;
+    width: 420px;
+    height: 230px;
+    cursor: pointer;
+}
+
+.png1 img{
+    width: 420px;
+    height: 230px;
+    border-radius: 8px;
+    filter: brightness(60%);
+    transition: 0.3s;
+}
+
+.png1 p{
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.png1 p:first-of-type{
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+.png1 p:last-of-type{
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+
+.png1:hover img{
+    filter: brightness(100%);
+}
+
+.png1:hover p{
+    color: #ffc107;
+}.c{
+    display: flex;
+    height: 250px;
+    background-color: #FFF7D9;
+   
+}
+.png2{
+    position: relative;
+    width: 420px;
+    height: 230px;
+    cursor: pointer;
+}
+
+.png2 img{
+    width: 420px;
+    height: 230px;
+    border-radius: 8px;
+    filter: brightness(60%);
+    transition: 0.3s;
+}
+
+.png2 p{
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.png2 p:first-of-type{
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+.png2 p:last-of-type{
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+.png2:hover img{
+    filter: brightness(100%);
+}
+.png2:hover p{
+      color: #ffc107;
+}
+.png1{
+    margin-left: 110px;
+}
+.png3{
+    position: relative;
+    width: 420px;
+    height: 230px;
+    cursor: pointer;
+}
+.png3 img{
+    width: 420px;
+    height: 230px;
+    border-radius: 8px;
+    filter: brightness(60%);
+    transition: 0.3s;
+}
+.png3 p{
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.png3 p:first-of-type{
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+.png3 p:last-of-type{
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+.png3:hover img{
+    filter: brightness(100%);
+}
+.png3:hover p{
+    color: #ffc107;
+}
+.png1{
+    margin-top: 20px;
+}
+.png2{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.png3{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.png1:hover{
+    transition: transform 0.4s ;
+    transform: translateY(-5px);
+}
+.png2:hover{
+    transition: transform 0.4s ;
+    transform: translateY(-5px);
+}
+.png3:hover{
+    transition: transform 0.4s ;
+    transform: translateY(-5px);
+}
+.house{
+    display: flex;
+}
+.town{
+    display: flex;
+    height: 430px;
+    background-color: #FFF7D9;
+}
+.town img{
+    width: 90%;
+    margin-left: 60px;
+}
+.town h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.town span{
+    color: #FFD129;
+}
+.town p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.house{
+    margin-left: 20px;
+}
+.house p{
+    font-size: 17px;
+}
+.house span{
+    font-size: 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: #ffc107;
+}
+.house h4{
+    margin-left: 20px;
+}
+.first h1{
+    text-align: center;
+    font-weight: bold;
+}
+.first span{
+    color: #FFD129;
+}
+.first1{
+    display: flex;
+}
+.second{
+    width: 27.5%;
+    margin-top: 30px;
+    margin-left: 110px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #C5B885;
+}
+.three{
+    width: 27.5%;
+    margin-top: 30px;
+    margin-left: 25px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #C5B885;
+}
+.three1{
+    width: 27.5%;
+    margin-top: 30px;
+    margin-left: 25px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #C5B885;
+}
+.second span{
+    font-size: 40px;
+    margin-left: 170px;
+    color: white;
+    border-radius: 10px;
+    background-color: #ffc107;
+}
+.second h4{
+    margin-top: 10px;
+    margin-left: 120px;
+}
+.second p{
+    margin-left: 20px;
+}
+.three span{
+    font-size: 40px;
+    margin-left: 170px;
+    color: white;
+    border-radius: 10px;
+    background-color: #ffc107;
+}
+.three h4{
+    margin-top: 10px;
+    margin-left: 120px;
+}
+.three p{
+    margin-left: 20px;
+}
+.three1 span{
+    font-size: 40px;
+    margin-left: 170px;
+    color: white;
+    border-radius: 10px;
+    background-color: #ffc107;
+}
+.three1 h4{
+    margin-top: 10px;
+    margin-left: 120px;
+}
+.three1 p{
+    margin-left: 20px;
+}
+.three1:hover{
+   transition: transform 0.4s ;
+    transform: translateY(-5px);
+}
+.three1:hover span{
+  color: white;
+}
+
+.three1:hover h4{
+  color: #FFD129;
+}
+.three1:hover p{
+  color: red;
+} 
+.three1:hover span svg{
+  color: black;
+}
+.three:hover{
+   transition: transform 0.4s ;
+    transform: translateY(-5px);
+}
+.three:hover span{
+  color: white;
+}
+.three:hover h4{
+  color: #FFD129;
+}
+.three:hover p{
+  color: red;
+} 
+.three:hover span svg{
+  color: black;
+}
+.second:hover{
+   transition: transform 0.4s ;
+    transform: translateY(-5px);
+}
+.second:hover span{
+  color: white;
+}
+.second:hover h4{
+  color: #FFD129;
+}
+.second:hover p{
+  color: red;
+} 
+.second:hover span svg{
+  color: black;
+}
+.first{
+    height: 330px;
+    background-color: #FFF7D9;
+}
+.img3{
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+.img4 img{
+    width: 70%;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+.link span{
+    font-size: 30px;
+    margin-left: 20px;  
+}
+.img5{
+    margin-left: 830px;
+}
